@@ -1,0 +1,57 @@
+/*CSS (style.css)*/
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #35ca10;
+}
+
+#app {
+    background: rgb(224, 202, 202);
+    padding: 70px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #0000001a;
+    text-align: center;
+    width: 80%;
+    max-width: 300px;
+    text-decoration-style: dotted;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid hwb(192 33% 41%);
+    border-radius: 4px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #cccccc;
+}
+
+#error{
+    color: red;
+}
+
+#qrcode {
+    margin-top: 20px;
+    display: block;
+    display: inline-flex;
+}
